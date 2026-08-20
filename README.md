@@ -36,28 +36,38 @@ python3 8_classes_and_objects.py
 python3 9_inheritance.py
 
 
-# Task 2 — Intermediate Level
-
+Task 2 — Intermediate Level
 Both parts completed as required.
-
-### 1. Hangman (`hangman.py`)
-
+1. Hangman (hangman.py)
 A complete word-guessing game with visual progress and hints.
+Features implemented:
 
-**Features implemented:**
-- Random word selection from a predefined list
-- Visual ASCII hangman figure that updates with each wrong guess
-- Hint system (type `hint` to get a clue)
-- Input validation (only single letters allowed)
-- Tracks guessed letters
-- Win and Loss conditions
-- Play Again option
+Random word selection from a predefined list
+Visual ASCII hangman figure that updates with each wrong guess
+Hint system (type hint to get a clue)
+Input validation (only single letters allowed)
+Tracks guessed letters
+Win and Loss conditions
+Play Again option
 
-**How to run:**
-```bash
-python hangman.py
+How to run:
+Bashcd "Task 2 - Intermediate"
+python3 hangman.py
+2. Web Scraper (web_scraper.py)
+Scrapes data from the official ShadowFox website (https://www.shadowfox.org.in/) using BeautifulSoup.
+Features implemented:
 
-**web_scraper**
-pip install requests beautifulsoup4
-python web_scraper.py
+Extracts Headings, Links, and Paragraphs
+Proper error handling
+Saves data in CSV and JSON format
 
+Output files:
+
+shadowfox_headings_20260820_104555.csv
+shadowfox_links_20260820_104555.csv
+shadowfox_report_20260820_104555.json
+
+How to run:
+Bashpip install requests beautifulsoup4
+cd "Task 2 - Intermediate"
+python3 web_scraper.py
