@@ -34,3 +34,30 @@ python3 6_dictionary.py
 python3 7_file_handling.py
 python3 8_classes_and_objects.py
 python3 9_inheritance.py
+
+
+# Task 2 — Intermediate Level
+
+Both parts completed as required.
+
+### 1. Hangman (`hangman.py`)
+
+A complete word-guessing game with visual progress and hints.
+
+**Features implemented:**
+- Random word selection from a predefined list
+- Visual ASCII hangman figure that updates with each wrong guess
+- Hint system (type `hint` to get a clue)
+- Input validation (only single letters allowed)
+- Tracks guessed letters
+- Win and Loss conditions
+- Play Again option
+
+**How to run:**
+```bash
+python hangman.py
+
+**web_scraper**
+pip install requests beautifulsoup4
+python web_scraper.py
+
